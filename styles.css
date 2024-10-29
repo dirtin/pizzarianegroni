@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg?20180610171425');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+ 
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(to right, #e88300, #005b96);
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 8cm;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      width: 8cm;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bill {
+  background: linear-gradient(to bottom, rgba(0, 168, 232, 0.5), rgba(0, 91, 150, 0.2));
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 8cm;
+  color: #fff;
+}
+
+
+.bill-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bill-items {
+  margin-bottom: 20px;
+}
+
+
+.bill-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.bill-total {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(to right, #e88300, #005b96);
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 7cm;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* Estilos dos botões */
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 05px 10px;
+  background-color: #ecedf1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff471e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.blue-fieldset {
+  border: none;
+  background: linear-gradient(to right, #e88300, #005b96);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 36px;
+}
+
+.blue-fieldset label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.blue-fieldset input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  font-size: 20px;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+  text-align: left; 
+  margin: 0 auto; /* Centralizar a caixa do input */
+  display: block; /* Garantir que o input ocupe a largura total */
+}
+
+
+.blue-fieldset input:focus {
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
